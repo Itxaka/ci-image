@@ -20,6 +20,8 @@ jobs:
       - name: Extract Docker metadata
         id: meta
         uses: docker/metadata-action@v4
+        with:
+          images: itxaka/ci-image
       - name: Build Docker image
         id: build
         uses: docker/build-push-action@v4
