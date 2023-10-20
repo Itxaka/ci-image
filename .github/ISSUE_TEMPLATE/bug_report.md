@@ -4,7 +4,7 @@ about: Create a report to help us improve
 title: ''
 labels: ''
 assignees: ''
-projects: ["octo-org/1", "octo-org/44"]
+projects: ["itxaka/test"]
 
 ---
 
