@@ -1,4 +1,4 @@
-FROM golang:1.20
+FROM golang:1.22
 
 # Enable backports repo for debian for swtpm
 RUN . /etc/os-release && echo "deb http://deb.debian.org/debian $VERSION_CODENAME-backports main contrib non-free" > /etc/apt/sources.list.d/backports.list
